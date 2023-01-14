@@ -1,0 +1,441 @@
+/* start hader*/
+body{
+    margin: 0px;
+    
+}
+
+.contanar{
+    width:1170px;
+    margin:auto;   
+}
+/*  sldier*/
+ .haeder .sldier{
+    background-size: cover;
+    background-image: url(./image/18.jpeg);
+    height:100vh;
+   
+}
+.haeder .intro{
+    padding:300px 200px;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+.haeder .intro h1{
+    text-align: center;
+    
+    color:#fff;
+    font-size: 50px;
+    margin:20px 0px;
+    border-top:4px solid #fff;
+    border-bottom:4px solid #fff ;
+}
+.haeder .intro button{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 40px;
+    text-transform:uppercase;
+    border: 2px solid #fff;
+    font-weight:bold;
+    font-size: 20px;
+    
+    transition: all .2s ease-in-out;
+}
+.haeder .intro button:hover{
+    opacity: 0.5;
+}
+
+
+/* navbar*/
+  .navbar{
+    
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    text-transform:capitalize ;
+
+
+}
+
+ .navbar h2{
+     
+    text-transform:capitalize ;
+}
+ .navbar h2::first-letter{
+    background-color:#2ecc71 ;
+    margin-right:10px ;
+color:#333;
+    padding:3px ;
+    border-radius: 15px;
+}
+ .navbar h2 span{
+    color:#2ecc71;
+}
+
+.navbar ul{
+    list-style:none;
+    overflow: hidden;
+    padding-left: 0px;
+    float:right;
+}
+
+ .navbar ul li{
+    float: left;
+    padding: 10px;
+ 
+}
+.navbar ul li a{
+    
+    text-decoration:none;
+    color: #fff;
+}
+ .navbar ul li a:hover{
+     color:#2ecc71;
+ }
+  .navbar ul .li-ac a{color:#2ecc71;}
+  .navbar ul .li-ac a:hover{color:#fff}
+
+/*features*/
+.features{
+   overflow: hidden;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   
+   background-attachment:fixed ;
+
+}
+.features .feat{
+    float:left ;
+    width: 33.33333%;
+    height: 150px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.features .feat > h1{color:#252f31;}
+
+
+/*abuot me*/
+.abuot-me{
+    
+    background-attachment: fixed;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.abuot-me .img {
+    width: 40%;
+    float: left;
+}
+.abuot-me .img > img{
+    width: 100%;
+}
+.abuot-me .info {
+    float: left;
+    width: 60%;
+}
+
+.abuot-me .info > h2{
+    color: #555;
+margin: 40px 0 20px 40px;
+}
+.abuot-me .info > p{
+    margin: 0 0 10px 40px;
+
+    
+
+}
+.abuot-me .info > p:last-of-type{margin-top: 30px;}
+
+
+
+.abuot-me .hobbies {
+    width: 50%;
+    margin: 20px;
+float: left;
+margin: 20px 0 0 40px;
+
+}
+
+
+.abuot-me .hobbies .contant{padding-top: 50px  ; float: left;  width: 50%;   }
+.abuot-me .hobbies .contant .icon{width: 12%;float: left;margin-right: 4%;}
+.abuot-me .hobbies .contant .icon img{ max-width: 100%;   margin: 11px 10px 0px -10px; }
+  .abuot-me .hobbies .contant .text{ width: 83%;  float:left; }
+.abuot-me .hobbies .contant .text h3{ color: #555;text-transform: capitalize; margin-top: 4%;}
+.abuot-me .hobbies .contant .text p{  margin-bottom:0px;}
+/*and abuot me*/
+/*start askills*/
+.my-skills{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress{
+    width:50%;
+    float:left;
+   
+    
+}
+
+
+
+
+
+.my-skills .skills h2{
+    color: #555;
+margin: 40px 0 20px 40px;
+padding-top: 0px;
+
+}
+.my-skills .skills p{margin: 0 0 10px 40px;}
+.my-skills .skills p:last-of-type{margin-top: 30px;}
+.my-skills .skills button{
+    background-color: transparent;
+    color:#2ecc71;
+    border:2px solid #2ecc71;
+    padding: 10px 30px;
+    margin: 20px 40px;
+    font-weight:bold;
+}
+.my-skills .skills button:hover{
+    background:#2ecc71 
+}
+.my-skills .progress{ padding-top: 50px;  padding-bottom: 30px;}
+.my-skills .progress .technique {padding-left:30px;}
+.my-skills .progress .technique h2{margin: 5 0;}
+.my-skills .progress .technique > div{background-color: #F2F2F2;height: 25px;}
+.my-skills .progress .technique div span{
+    background-color:#2ecc71 ;
+    height: 25px;
+    display: block;
+    text-align: right;
+    line-height: 25px;
+    color: #f1f1f1;
+}
+
+/*and skills*/
+/*start resume*/
+.resume{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+.resume h2{text-transform:uppercase;color:#555;}
+
+.resume button{
+    background-color: transparent;
+    border:2px solid #2ecc71;
+    color:#2ecc71;
+    font-weight:bold;
+    padding:10px 20px;
+
+}
+.resume span{
+    text-align: center;
+}
+/*andresume*/
+/*start my-education*/
+
+.my-education{
+   
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    overflow: hidden;
+}
+.my-education .education
+{
+    width:50%;
+    float:left;
+    padding-right: 5%;
+    
+    height: 700px;
+}
+.my-education .education h2{
+color: #333;
+text-transform: capitalize;
+padding-bottom: 10px;
+}
+
+.my-education .epx{
+    width:45%;
+    float:left;
+    padding-top:50px;
+}
+.my-education .epx h2{
+    text-transform:capitalize;
+    margin-bottom:0 ;
+}
+.my-education .epx span {
+    margin-top: 20px;
+    color: #999;
+display:block;
+text-transform: capitalize;
+}
+.my-education .epx span:last-of-type{
+    color:#fff;
+    background-color:#2ecc71;
+    display:inline-block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+/*end my-education*/
+/*start work*/
+
+
+
+
+/*end work*/
+/*start testimonials*/
+.testimonials{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.testimonials q{
+    line-height:1.8;
+    color:#999;
+    font-size: 18px;
+    font-style:italic;
+    font-weight: bold;
+}
+.testimonials h3{
+    text-transform:capitalize;
+    color:#666;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.testimonials ul{
+    list-style: none;
+    
+    text-align: center;
+    padding-left: 0px;
+}
+.testimonials li{
+ border:1px solid #2ecc71;
+    
+    display: inline-block;
+    width: 15px;
+    height:15px;
+}
+.testimonials li:hover,.testimonials li.critf{
+    background-color: #2ecc71;
+    cursor:pointer;
+} 
+/*and testimonials/
+/*start portfolio*/
+.portfolio{
+    text-align:center;
+    padding-top:70px;
+    padding-bottom:70px;
+    
+}
+.portfolio h2{
+    padding-top: 50px;
+    text-transform:capitalize;
+    color: #555;
+    padding-bottom:20px;
+    font-size: 35px;
+}
+.portfolio p{padding-bottom:50px;}
+.portfolio .our-work{
+    overflow: hidden;
+}
+.portfolio .our-work > div{
+    float: left;
+    width:33,3333px ;
+    
+    margin-bottom: 10px;
+}
+.portfolio .our-work > div img{
+    width:94%;
+    margin:20px 50%;
+    box-shadow: 20px 10px 5px  #ccc;
+}
+.portfolio .our-work > div img:hover{ box-shadow: 30px 20px 5px #ccc;cursor:pointer}
+
+/*end portfolio*/
+/* start contact me*/
+.contact{background-color: #252f31;overflow:hidden}
+.contact h2{
+    padding-top: 50px;
+    text-transform: capitalize;
+    color:#fff;}
+.contact .info strong{color:#fff; padding-right: 20px;}
+.contact .form{
+ width: 50%;
+float:left;
+padding-bottom: 50px;
+padding-top: 50px}
+.contact .info{ width: 50%; float:left;padding-bottom: 50px;}
+.contact .form label{
+line-height: 2;
+    color: #fff;
+    padding: 10px;
+    display: block}
+
+.contact .form input[type=text],.contact .form input[type=email],
+.contact .form textarea{
+    width:500px;
+    padding:15px;
+    background-color: #4B5557;
+    border:none;
+    color: #fff}
+.contact .form textarea{ height:300px;}
+.contact .form input[type=sudmit]{
+    padding: 15px 20px;
+    color:#fff;
+    background-color: #000;
+    margin:20px;
+    border:none ;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer}
+
+/* end contact me*/
+/*start footer*/
+ .footerall{background-color: #111;overflow: hidden;}
+.footer{ text-align: center;
+    color: #6a6e71;
+    padding: 20px ;
+    float: left;
+    width: 50%}
+
+ .sosh{ padding: 20px ; float: right}
+.sosh img{
+    width: 30px;
+    margin:0px 3px;
+    border-radius:100%;
+    background-color: #6a6e71;
+    
+}
+ .sosh .last{
+    width: 30px;
+    margin:0px 3px;
+    border-radius:100%;
+    background-color: #fff}
+ .sosh img:hover{
+    width: 30px;
+    margin:0px 3px;
+    
+    background-color: #fff;
+    
+}
+
+
+/*end  footer*/
+/*start fremwork*/
+
+p{color:#999;line-height: 1.7;} /*paragraf*/
+hr {background-color:#999; padding: 0; height: 1px;border: 0;margin: 20px auto;}/*hr--*/
+.fl-le{float:left}
+
+
+/*and fremwork*/
